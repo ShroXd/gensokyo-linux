@@ -272,6 +272,7 @@ polybar
 powertop
 ppp
 pptpclient
+procs
 pulsemixer
 pv
 python-pywal

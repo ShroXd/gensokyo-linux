@@ -142,5 +142,6 @@ alias v="nvim"
 alias cd="z"
 alias ls="exa"
 alias df="duf"
+alias ps="procs"
 
 eval "$(zoxide init zsh)"
