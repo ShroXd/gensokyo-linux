@@ -101,6 +101,7 @@ dmraid
 dnsmasq
 dosfstools
 downgrade
+duf
 dunst
 duplicacy-web
 e2fsprogs
