@@ -26,6 +26,7 @@ echo "List of installed packages backed up to $ENV_BACKUP_DIR"
 
 CURRENT_DATE=$(date "+%Y-%m-%d")
 
+cd "$REPO_DIR"
 git add .
 git commit -m "$CURRENT_DATE - Manually backup"
 git push

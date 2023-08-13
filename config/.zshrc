@@ -139,3 +139,4 @@ alias gp='git push origin master'
 # custom alias
 alias c="clear"
 alias v="nvim"
+alias backup="$HOME/Code/gensokyo-linux/script/backup.sh"
