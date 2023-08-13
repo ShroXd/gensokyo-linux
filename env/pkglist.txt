@@ -107,6 +107,7 @@ e2fsprogs
 edk2-shell
 efibootmgr
 ethtool
+exa
 exfatprogs
 f2fs-tools
 fakeroot
@@ -400,5 +401,6 @@ xz
 yad
 yay
 zip
+zoxide
 zsh
 zstd

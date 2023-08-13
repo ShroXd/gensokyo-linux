@@ -139,3 +139,7 @@ alias gp='git push origin master'
 # custom alias
 alias c="clear"
 alias v="nvim"
+alias cd="z"
+alias ls="exa"
+
+eval "$(zoxide init zsh)"
