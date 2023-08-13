@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#CURRENT_DATE=$(date "+%Y-%m-%d")
 REPO_DIR="$(git rev-parse --show-toplevel)"
 
 # --------- Backup env files -----------------------------------------------------------------
@@ -22,3 +21,11 @@ fi
 
 pacman -Qqe >"$ENV_BACKUP_DIR/pkglist.txt"
 echo "List of installed packages backed up to $ENV_BACKUP_DIR"
+
+# --------- Commit backup -----------------------------------------------------------------
+
+CURRENT_DATE=$(date "+%Y-%m-%d")
+
+git add .
+git commit -m "$CURRENT_DATE - Manually backup"
+git push
