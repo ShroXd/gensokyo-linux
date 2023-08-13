@@ -188,6 +188,7 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
+listen1-desktop-appimage
 lrzip
 lsb-release
 lsscsi
@@ -242,6 +243,7 @@ nvidia-utils
 nvme-cli
 obmenu-generator
 obsidian
+okular
 open-iscsi
 openconnect
 openssh
