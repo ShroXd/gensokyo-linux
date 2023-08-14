@@ -143,5 +143,11 @@ alias cd="z"
 alias ls="exa"
 alias df="duf"
 alias ps="procs"
+alias top="btm"
 
 eval "$(zoxide init zsh)"
+
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+source /usr/share/nvm/init-nvm.sh

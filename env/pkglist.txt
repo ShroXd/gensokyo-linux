@@ -81,6 +81,7 @@ bison
 blueman
 bluez
 bluez-utils
+bottom
 brltty
 broadcom-wl
 btrfs-progs
@@ -240,6 +241,7 @@ ntfs-3g
 nvidia
 nvidia-settings
 nvidia-utils
+nvm
 nvme-cli
 obmenu-generator
 obsidian
