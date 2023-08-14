@@ -324,6 +324,7 @@ unzip
 usb_modeswitch
 usbmuxd
 usbutils
+vdhcoapp-bin
 viewnior
 vim
 vpnc
