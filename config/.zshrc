@@ -70,7 +70,13 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  zsh-vi-mode
+  colored-man-pages
+ )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -151,3 +157,5 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 source /usr/share/nvm/init-nvm.sh
+
+bindkey '^w' autosuggest-accept

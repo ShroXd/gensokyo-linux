@@ -133,6 +133,7 @@ gcc
 geany
 geany-plugins
 ghostscript
+github-desktop-bin
 gnome-keyring
 gnu-netcat
 go
