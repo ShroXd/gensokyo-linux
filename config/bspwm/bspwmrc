@@ -166,3 +166,7 @@ bspbar
 bspcomp
 bspdunst
 bspfloat &
+
+# Autostart applications
+synology-drive
+fcitx5
