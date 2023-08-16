@@ -150,6 +150,7 @@ alias ls="exa -al"
 alias df="duf"
 alias ps="procs"
 alias top="btm"
+alias mt="make test"
 
 eval "$(zoxide init zsh)"
 

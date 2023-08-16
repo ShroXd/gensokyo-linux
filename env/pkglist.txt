@@ -278,6 +278,7 @@ pptpclient
 procs
 pulsemixer
 pv
+python-pip
 python-pywal
 python2
 qt5ct
