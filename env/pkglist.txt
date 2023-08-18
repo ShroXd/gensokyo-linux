@@ -100,6 +100,8 @@ diffutils
 dmidecode
 dmraid
 dnsmasq
+docker
+docker-compose
 dosfstools
 downgrade
 duf
